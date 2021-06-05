@@ -58,7 +58,7 @@
     "@ngrx/store-devtools": "10.1.2",
     "apollo-angular-boost": "1.9.0",
     "graphql": "15.3.0",
-    "routeshub": "4.2.1",
+    "routeshub": "4.4.0",
     "rxjs": "6.6.3",
     "tslib": "2.1.0",
     "zone.js": "0.11.3"

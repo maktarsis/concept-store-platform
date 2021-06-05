@@ -11121,12 +11121,12 @@ rollup@2.32.1:
   optionalDependencies:
     fsevents "~2.1.2"
 
-routeshub@4.2.1:
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/routeshub/-/routeshub-4.2.1.tgz#e2ced32b0ea3f1bcab7f412387665d2d7fd79a79"
-  integrity sha512-EmCr0GrF/g21YkGHiJUyQThdKt+UsAiQupRoYzSAufviuIXAj1U9NBgmSo+nScJsowHVWSRYFrBhyUlwXSK7ig==
+routeshub@4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/routeshub/-/routeshub-4.4.0.tgz#b64e455c447c71d712517ff186f9249f72d08e0c"
+  integrity sha512-n70Ob60PkwLQ+xBbdSMxXN0KKhmWh2d6Gmh4GLVhlWVOMewDyVe3uv97Ep6PfmE9dcmyvXuax6McR8X0Oc1qPw==
   dependencies:
-    tslib "2.0.0"
+    tslib "~2.0.3 || ~2.1.0 || ~2.2.0"
 
 run-async@^2.4.0:
   version "2.4.1"
@@ -12948,11 +12948,6 @@ tslib@1.11.1:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.11.1.tgz#eb15d128827fbee2841549e171f45ed338ac7e35"
   integrity sha512-aZW88SY8kQbU7gpV19lN24LtXh/yD4ZZg6qieAJDDg+YBsJcSmLGK9QpnUjAKVG/xefmvJGd1WUmfpT/g6AJGA==
 
-tslib@2.0.0, tslib@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.0.0.tgz#18d13fc2dce04051e20f074cc8387fd8089ce4f3"
-  integrity sha512-lTqkx847PI7xEDYJntxZH89L2/aXInsyF2luSafe/+0fHOMjlBNXdH6th7f70qxLDhul7KZK0zC8V5ZIyHl0/g==
-
 tslib@2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.0.1.tgz#410eb0d113e5b6356490eec749603725b021b43e"
@@ -12973,7 +12968,12 @@ tslib@^1, tslib@^1.10.0, tslib@^1.11.2, tslib@^1.13.0, tslib@^1.8.1, tslib@^1.9.
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.13.0.tgz#c881e13cc7015894ed914862d276436fa9a47043"
   integrity sha512-i/6DQjL8Xf3be4K/E6Wgpekn5Qasl1usyw++dAA35Ue5orEn65VIxOA+YvNNl9HV3qv70T7CNwjODHZrLwvd1Q==
 
-tslib@^2.1.0:
+tslib@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.0.0.tgz#18d13fc2dce04051e20f074cc8387fd8089ce4f3"
+  integrity sha512-lTqkx847PI7xEDYJntxZH89L2/aXInsyF2luSafe/+0fHOMjlBNXdH6th7f70qxLDhul7KZK0zC8V5ZIyHl0/g==
+
+tslib@^2.1.0, "tslib@~2.0.3 || ~2.1.0 || ~2.2.0":
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.2.0.tgz#fb2c475977e35e241311ede2693cee1ec6698f5c"
   integrity sha512-gS9GVHRU+RGn5KQM2rllAlR3dU6m7AcpJKdtH8gFvQiC4Otgk98XnmMU+nZenHt/+VhnBPWwgrJsyrdcw6i23w==
