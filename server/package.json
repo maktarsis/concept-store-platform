@@ -6,7 +6,7 @@
     "start": "babel-watch src"
   },
   "dependencies": {
-    "apollo-server-express": "2.19.2",
+    "apollo-server-express": "2.25.2",
     "cors": "2.8.5",
     "crypto": "1.0.1",
     "express": "4.17.1",
